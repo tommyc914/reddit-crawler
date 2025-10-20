@@ -49,9 +49,9 @@ from selenium.webdriver.chrome.options import Options
 
 #Reddit建議user_agent格式"平台:專案名稱:版本字號 (by /u/你的Reddit帳號)"
 reddit = praw.Reddit(
-    client_id = "2pcM9lm7754W5vHnmuYeDA",
-    client_secret = "xs7sn3tv8R9_sVCLPOlDocR0WwhFBQ",
-    user_agent = "windows:stock_predictor:1.0 (by/u/tom)"
+    client_id = "YOUR_ID",
+    client_secret = "YOUR_SECRET",
+    user_agent = "YOUR_AGENT"
 )
 
 #爬蟲(twse每日資料更新)
