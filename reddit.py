@@ -60,7 +60,6 @@ chrome = Options()
 #1
 chrome.add_argument(f"--user-agent={UserAgent().random}")
 
-#chrome.add_experimental_option("excludeSwitches",["enable-automation"])，過氣寫法
 
 chrome.add_experimental_option("useAutomationExtension", False)
 chrome.add_argument("--start-maximized")
